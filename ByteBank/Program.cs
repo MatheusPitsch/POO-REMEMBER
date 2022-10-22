@@ -45,15 +45,15 @@ internal class Program
             conta.titular = cliente;
             conta.conta = "1010";
             conta.SetSaldo(100);
-            conta.numeroAgencia = 15;
+            conta.NumeroAgencia = 15;
             
             ContaCorrente conta2 = new ContaCorrente();
             conta2.titular = cliente;
             conta2.conta = "1010";
             conta2.SetSaldo(100);
-            conta2.numeroAgencia = 15;
+            conta2.NumeroAgencia = 15;
 
-            conta.Saque(200);
+            Console.WriteLine(conta.MostraConta()); 
         }
 
         Console.ReadLine();
