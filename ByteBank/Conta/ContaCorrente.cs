@@ -13,9 +13,9 @@ namespace ByteBank.Conta
                 if (value > 0) this._numeroAgencia = value;
             }
         }
-        public string conta;
         public Titular Titular { get; set; }
-        private decimal saldo;      
+        public string conta;
+        private decimal saldo;             
 
         public int MostraConta()
         {
@@ -24,7 +24,7 @@ namespace ByteBank.Conta
 
         public void MostrarSaldo()
         {
-            Console.WriteLine("O saldo de " + titular + " é " + saldo);
+            Console.WriteLine("O saldo é " + saldo);
         }
 
         public void Deposito(decimal valorDeposito)
