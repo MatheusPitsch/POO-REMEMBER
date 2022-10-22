@@ -14,7 +14,7 @@ namespace ByteBank.Conta
             }
         }
         public string conta;
-        public Titular titular;
+        public Titular Titular { get; set; }
         private decimal saldo;      
 
         public int MostraConta()
