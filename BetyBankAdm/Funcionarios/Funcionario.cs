@@ -13,8 +13,8 @@ namespace BetyBankAdm.Funcionarios
         public decimal Wage { get; set; }
 
         public decimal Bonus()
-        {
-            return this.Wage * 10 / 100;
+        {   
+            return this.Wage * 0.10M;
         }
     }
 }

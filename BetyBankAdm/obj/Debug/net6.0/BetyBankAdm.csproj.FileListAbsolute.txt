@@ -1,0 +1,15 @@
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\bin\Debug\net6.0\BetyBankAdm.exe
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\bin\Debug\net6.0\BetyBankAdm.deps.json
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\bin\Debug\net6.0\BetyBankAdm.runtimeconfig.json
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\bin\Debug\net6.0\BetyBankAdm.dll
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\bin\Debug\net6.0\BetyBankAdm.pdb
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.AssemblyInfo.cs
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.dll
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\refint\BetyBankAdm.dll
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.pdb
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\BetyBankAdm.genruntimeconfig.cache
+C:\Users\A\Desktop\cursoAlura\BetyBankAdm\obj\Debug\net6.0\ref\BetyBankAdm.dll
