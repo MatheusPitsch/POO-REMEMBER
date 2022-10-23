@@ -1,5 +1,7 @@
 ﻿using BetyBankAdm.Funcionarios;
+using ByteBank.Funcionarios;
 using bytebank_ADM.Utilitario;
+using ByteBank_ADM.Funcionarios;
 using System.ComponentModel.Design;
 using System.Reflection.Metadata;
 
@@ -40,23 +42,23 @@ internal class Program
             GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
             Designer ulisses = new Designer("123456");
-            ulisses.Nome = "Ulisses Souza";
+            ulisses.Name = "Ulisses Souza";
 
             Diretor paula = new Diretor("987456");
-            paula.Nome = "Paula Souza";
+            paula.Name = "Paula Souza";
 
             Auxiliar igor = new Auxiliar("74581");
-            igor.Nome = "Igor Dias";
+            igor.Name = "Igor Dias";
 
-            GerenteDeContas camila = new GerenteDeContas("852963");
-            camila.Nome = "Camila Oliveira";
+            GerenteDeConta camila = new GerenteDeConta("852963");
+            camila.Name = "Camila Oliveira";
 
             gerenciador.Registrar(camila);
             gerenciador.Registrar(igor);
             gerenciador.Registrar(paula);
             gerenciador.Registrar(ulisses);
 
-            Console.WriteLine("Total de Bonificação = " + gerenciador.TotalDeBonificacao);
+            Console.WriteLine("Total de Bonificação = " + gerenciador.GetBonificacao());
         }
         Console.ReadLine();
     }

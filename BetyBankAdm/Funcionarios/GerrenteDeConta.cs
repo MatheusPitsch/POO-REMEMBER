@@ -10,8 +10,9 @@ namespace ByteBank_ADM.Funcionarios
         public override decimal GetBonificacao()
         {
             return Wage * 0.25M;
-        }
-        public void AumentaSalario()
+        }      
+
+        public override void AumentaSalario()
         {
             Wage *= 1.05M;
         }
