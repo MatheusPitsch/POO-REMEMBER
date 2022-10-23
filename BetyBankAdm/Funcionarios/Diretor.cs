@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace BetyBankAdm.Funcionarios
 {
-    public class Funcionario
+    public class Diretor
     {
         public string Name { get; set; }
         public string Cpf { get; set; }
         public decimal Wage { get; set; }
 
         public decimal GetBonificacao()
-        {   
-            return this.Wage * 0.10M;
+        {
+            return this.Wage;
         }
     }
 }
