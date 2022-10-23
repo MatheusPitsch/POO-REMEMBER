@@ -10,16 +10,21 @@ namespace BetyBankAdm.Funcionarios
     {
         public string Name { get; set; }
         public string Cpf { get; private set; }
-        public decimal Wage { get; set; }
+        public decimal Wage { get; protected set; }
         public static int ContadorFuncionario { get; private set; }
         public virtual decimal GetBonificacao()
-        {   
+        {
             return this.Wage * 0.10M;
         }
-        public Funcionario(string cpf)
+        public Funcionario(string cpf, decimal wage)
         {
+            this.Wage = wage;
             this.Cpf = cpf;
             ContadorFuncionario++;
+        }
+        public virtual void AumentaSalario()
+        {
+            this.Wage += this.Wage * 0.10M;
         }
     }
 }
