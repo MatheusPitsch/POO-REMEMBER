@@ -8,6 +8,10 @@ namespace BetyBankAdm.Funcionarios
 {
     public class Diretor : Funcionario
     {
+        public Diretor(string cpf) : base(cpf)
+        {
+        }
+
         override public decimal GetBonificacao()
         {
             return this.Wage + base.GetBonificacao();

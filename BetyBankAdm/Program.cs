@@ -2,16 +2,14 @@
 using bytebank_ADM.Utilitario;
 using System.Reflection.Metadata;
 
-Funcionario pedro = new Funcionario();
+Funcionario pedro = new Funcionario("10590430920");
 
 pedro.Name = "Pedro";
-pedro.Cpf = "10590430920";
 pedro.Wage = 100.0M;
 
-Diretor Carla = new Diretor();
+Diretor Carla = new Diretor("10590430920");
 
 Carla.Name = "Pedro";
-Carla.Cpf = "10590430920";
 Carla.Wage = 100.0M;
 
 GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
