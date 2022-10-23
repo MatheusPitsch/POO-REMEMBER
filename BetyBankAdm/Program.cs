@@ -21,5 +21,7 @@ gerenciador.Registrar(pedro);
 
 Console.WriteLine("Total de bonificações: " + gerenciador.GetBonificacao());
 
+Console.WriteLine(Funcionario.ContadorFuncionario);
+
 
 Console.ReadLine();

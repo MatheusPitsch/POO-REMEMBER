@@ -10,7 +10,7 @@ namespace BetyBankAdm.Funcionarios
     {
         override public decimal GetBonificacao()
         {
-            return this.Wage;
+            return this.Wage + base.GetBonificacao();
         }
     }
 }
