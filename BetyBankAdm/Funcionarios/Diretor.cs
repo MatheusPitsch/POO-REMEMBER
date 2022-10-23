@@ -8,7 +8,7 @@ namespace BetyBankAdm.Funcionarios
 {
     public class Diretor : Funcionario
     {
-        public decimal GetBonificacao()
+        override public decimal GetBonificacao()
         {
             return this.Wage;
         }

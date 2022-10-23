@@ -12,7 +12,7 @@ namespace BetyBankAdm.Funcionarios
         public string Cpf { get; set; }
         public decimal Wage { get; set; }
 
-        public decimal GetBonificacao()
+        public virtual decimal GetBonificacao()
         {   
             return this.Wage * 0.10M;
         }
