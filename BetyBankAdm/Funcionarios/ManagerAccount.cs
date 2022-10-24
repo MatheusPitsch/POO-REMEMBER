@@ -3,11 +3,12 @@ using BetyBankAdm.SystemInternal;
 
 namespace BetyBankAdm.Funcionarios
 {
-    public class ManagerAccount : BaseModel
-    {
-        public ManagerAccount(string name, string cpf) : base(name, cpf, 4000)
-        {
-        }
+    public class ManagerAccount : BaseModelManegar, IAuthentic
+    {        
+        public ManagerAccount(string password, string name, string cpf) : base(password,name, cpf, 4000)
+        {           
+        }        
+
         public override decimal GetBonus()
         {
             return Wage * 0.25M;

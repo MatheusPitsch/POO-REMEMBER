@@ -1,4 +1,6 @@
-﻿public class Program
+﻿using BetyBankAdm.Funcionarios;
+
+public class Program
 {
     private static void Main(string[] args)
     {
@@ -77,7 +79,9 @@
         //Após refatoração
 
         {
-
+            Director pedro = new Director("123","Pedro","15614");
+            Console.WriteLine(pedro.ToString());
+            pedro.Authenticate("321");
         }
 
 

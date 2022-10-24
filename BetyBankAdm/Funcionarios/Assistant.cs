@@ -2,9 +2,9 @@
 
 namespace BetyBankAdm.Funcionarios
 {
-    public class Auxiliar : BaseModel
+    public class Assistant : BaseModel
     {
-        public Auxiliar(string name, string cpf) : base(name, cpf, 2000) 
+        public Assistant(string name, string cpf) : base(name, cpf, 2000) 
         { 
         }
         public override decimal GetBonus()
