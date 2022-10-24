@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,6 +19,12 @@ namespace BetyBankAdm.Funcionarios
         public override void AumentaSalario()
         {
             this.Wage += this.Wage * 0.15M;
+        }
+        public string password { get; set; }
+
+        public bool Authentic(string password)
+        {
+            return this.password == password;
         }
     }
 }

@@ -16,5 +16,11 @@ namespace BetyBankAdm.Funcionarios
         {
             Wage *= 1.05M;
         }
+        public string password { get; set; }
+
+        public bool Authentic(string password)
+        {
+            return this.password == password;
+        }
     }
 }

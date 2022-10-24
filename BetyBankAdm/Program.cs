@@ -1,7 +1,8 @@
 ﻿using BetyBankAdm.Funcionarios;
+using BetyBankAdm.SistemaInterno;
 using BetyBankAdm.Utilitario;
 
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {
@@ -35,27 +36,49 @@ internal class Program
 
         void CalcularBonificacao()
         {
-            GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+            //GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-            Designer ulisses = new Designer("123456");
-            ulisses.Name = "Ulisses Souza";
+            //Designer ulisses = new Designer("123456");
+            //ulisses.Name = "Ulisses Souza";
 
-            Diretor paula = new Diretor("987456");
-            paula.Name = "Paula Souza";
+            //Diretor paula = new Diretor("987456");
+            //paula.Name = "Paula Souza";
 
-            Auxiliar igor = new Auxiliar("74581");
-            igor.Name = "Igor Dias";
+            //Auxiliar igor = new Auxiliar("74581");
+            //igor.Name = "Igor Dias";
 
-            GerenteDeConta camila = new GerenteDeConta("852963");
-            camila.Name = "Camila Oliveira";
+            //GerenteDeConta camila = new GerenteDeConta("852963");
+            //camila.Name = "Camila Oliveira";
 
-            gerenciador.Registrar(camila);
-            gerenciador.Registrar(igor);
-            gerenciador.Registrar(paula);
-            gerenciador.Registrar(ulisses);
+            //gerenciador.Registrar(camila);
+            //gerenciador.Registrar(igor);
+            //gerenciador.Registrar(paula);
+            //gerenciador.Registrar(ulisses);
 
-            Console.WriteLine("Total de Bonificação = " + gerenciador.GetBonificacao());
+            //Console.WriteLine("Total de Bonificação = " + gerenciador.GetBonificacao());
         }
+
+        UsarSistema();
+
+        void UsarSistema()
+        {
+            SistemaInterno sistema = new SistemaInterno();
+            
+            Diretor ingrid = new Diretor("4685");
+            ingrid.Name = "Ingrid";
+            ingrid.password = "123";
+
+            GerenteDeConta carlos = new GerenteDeConta("145656");
+            carlos.Name = "Carlos";
+            carlos.password = "5875";
+
+            sistema.Singin(ingrid, "123");
+            sistema.Singin(carlos, "555");
+        }
+
+
+
         Console.ReadLine();
     }
 }
+
