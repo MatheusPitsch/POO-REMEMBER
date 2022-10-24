@@ -1,6 +1,6 @@
 ﻿using BetyBankAdm.Funcionarios;
 
-namespace ByteBank_ADM.Funcionarios
+namespace BetyBankAdm.Funcionarios
 {
     public class GerenteDeConta : Funcionario
     {

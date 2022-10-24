@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\Desktop\\cursoAlura\\BetyBankAdm\\BetyBankAdm.csproj": {}
+    "C:\\Users\\A\\Desktop\\CursoAlura\\BetyBankAdm\\BetyBankAdm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\Desktop\\cursoAlura\\BetyBankAdm\\BetyBankAdm.csproj": {
+    "C:\\Users\\A\\Desktop\\CursoAlura\\BetyBankAdm\\BetyBankAdm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\Desktop\\cursoAlura\\BetyBankAdm\\BetyBankAdm.csproj",
+        "projectUniqueName": "C:\\Users\\A\\Desktop\\CursoAlura\\BetyBankAdm\\BetyBankAdm.csproj",
         "projectName": "BetyBankAdm",
-        "projectPath": "C:\\Users\\A\\Desktop\\cursoAlura\\BetyBankAdm\\BetyBankAdm.csproj",
+        "projectPath": "C:\\Users\\A\\Desktop\\CursoAlura\\BetyBankAdm\\BetyBankAdm.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\Desktop\\cursoAlura\\BetyBankAdm\\obj\\",
+        "outputPath": "C:\\Users\\A\\Desktop\\CursoAlura\\BetyBankAdm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

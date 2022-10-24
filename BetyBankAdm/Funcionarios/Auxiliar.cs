@@ -1,6 +1,6 @@
 ﻿using BetyBankAdm.Funcionarios;
 
-namespace ByteBank.Funcionarios
+namespace BetyBankAdm.Funcionarios
 {
     public class Auxiliar : Funcionario
     {

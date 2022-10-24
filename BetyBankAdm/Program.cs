@@ -1,9 +1,5 @@
 ﻿using BetyBankAdm.Funcionarios;
-using ByteBank.Funcionarios;
-using bytebank_ADM.Utilitario;
-using ByteBank_ADM.Funcionarios;
-using System.ComponentModel.Design;
-using System.Reflection.Metadata;
+using BetyBankAdm.Utilitario;
 
 internal class Program
 {

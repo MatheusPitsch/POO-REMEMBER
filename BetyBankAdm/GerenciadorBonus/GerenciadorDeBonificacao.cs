@@ -1,6 +1,6 @@
 ﻿using BetyBankAdm.Funcionarios;
 
-namespace bytebank_ADM.Utilitario
+namespace BetyBankAdm.Utilitario
 {
     public class GerenciadorDeBonificacao
     {
