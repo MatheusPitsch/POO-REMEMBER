@@ -1,17 +1,18 @@
-﻿using BetyBankAdm.SistemaInterno;
+﻿using BetyBankAdm.Model;
+using BetyBankAdm.SystemInternal;
 
 namespace BetyBankAdm.Funcionarios
 {
-    public class Diretor : Atentica
+    public class Director : BaseModel
     {
-        public Diretor(string cpf) : base(cpf, 5000)
+        public Director(string name, string cpf) : base(name, cpf, 5000)
         {
         }
-        override public decimal GetBonificacao()
+        override public decimal GetBonus()
         {
             return this.Wage + 0.15M;
         }
-        public override void AumentaSalario()
+        public override void IncreaseSalary()
         {
             this.Wage += this.Wage * 0.15M;
         }

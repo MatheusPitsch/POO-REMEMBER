@@ -1,17 +1,17 @@
-﻿using BetyBankAdm.Funcionarios;
+﻿using BetyBankAdm.Model;
 
 namespace BetyBankAdm.Funcionarios
 {
-    public class Designer : Funcionario
+    public class Designer : BaseModel
     {
-        public Designer(string cpf) : base(cpf, 3000)
+        public Designer(string name, string cpf) : base(name, cpf, 3000)
         {
         }
-        public override decimal GetBonificacao()
+        public override decimal GetBonus()
         {
             return Wage * 0.17M;
         }
-        public override void AumentaSalario()
+        public override void IncreaseSalary()
         {
             Wage *= 1.11M;
         }

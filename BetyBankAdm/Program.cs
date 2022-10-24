@@ -1,8 +1,4 @@
-﻿using BetyBankAdm.Funcionarios;
-using BetyBankAdm.SistemaInterno;
-using BetyBankAdm.Utilitario;
-
-public class Program
+﻿public class Program
 {
     private static void Main(string[] args)
     {
@@ -32,50 +28,57 @@ public class Program
             //Console.WriteLine(Carla.Wage);
         }
 
-        CalcularBonificacao();
-
-        void CalcularBonificacao()
         {
-            //GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+            CalcularBonificacao();
 
-            //Designer ulisses = new Designer("123456");
-            //ulisses.Name = "Ulisses Souza";
+            void CalcularBonificacao()
+            {
+                //GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-            //Diretor paula = new Diretor("987456");
-            //paula.Name = "Paula Souza";
+                //Designer ulisses = new Designer("123456");
+                //ulisses.Name = "Ulisses Souza";
 
-            //Auxiliar igor = new Auxiliar("74581");
-            //igor.Name = "Igor Dias";
+                //Diretor paula = new Diretor("987456");
+                //paula.Name = "Paula Souza";
 
-            //GerenteDeConta camila = new GerenteDeConta("852963");
-            //camila.Name = "Camila Oliveira";
+                //Auxiliar igor = new Auxiliar("74581");
+                //igor.Name = "Igor Dias";
 
-            //gerenciador.Registrar(camila);
-            //gerenciador.Registrar(igor);
-            //gerenciador.Registrar(paula);
-            //gerenciador.Registrar(ulisses);
+                //GerenteDeConta camila = new GerenteDeConta("852963");
+                //camila.Name = "Camila Oliveira";
 
-            //Console.WriteLine("Total de Bonificação = " + gerenciador.GetBonificacao());
+                //gerenciador.Registrar(camila);
+                //gerenciador.Registrar(igor);
+                //gerenciador.Registrar(paula);
+                //gerenciador.Registrar(ulisses);
+
+                //Console.WriteLine("Total de Bonificação = " + gerenciador.GetBonificacao());
+            }
+
+            UsarSistema();
+
+            void UsarSistema()
+            {
+                //SistemaInterno sistema = new SistemaInterno();
+
+                //Diretor ingrid = new Diretor("4685");
+                //ingrid.Name = "Ingrid";
+                //ingrid.password = "123";
+
+                //GerenteDeConta carlos = new GerenteDeConta("145656");
+                //carlos.Name = "Carlos";
+                //carlos.password = "5875";
+
+                //sistema.Singin(ingrid, "123");
+                //sistema.Singin(carlos, "555");
+            }
         }
 
-        UsarSistema();
+        //Após refatoração
 
-        void UsarSistema()
         {
-            SistemaInterno sistema = new SistemaInterno();
-            
-            Diretor ingrid = new Diretor("4685");
-            ingrid.Name = "Ingrid";
-            ingrid.password = "123";
 
-            GerenteDeConta carlos = new GerenteDeConta("145656");
-            carlos.Name = "Carlos";
-            carlos.password = "5875";
-
-            sistema.Singin(ingrid, "123");
-            sistema.Singin(carlos, "555");
         }
-
 
 
         Console.ReadLine();
