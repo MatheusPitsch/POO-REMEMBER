@@ -82,9 +82,12 @@ public class Program
             Director pedro = new Director("123","Pedro","15614");
             Console.WriteLine(pedro.ToString());
             pedro.Authenticate("321");
+            Console.WriteLine();
+
+            ManagerAccount rodrigo = new ManagerAccount("321", "Rodrigo","15614");
+            Console.WriteLine(rodrigo.ToString());
+            rodrigo.Authenticate("321");
         }
-
-
         Console.ReadLine();
     }
 }
