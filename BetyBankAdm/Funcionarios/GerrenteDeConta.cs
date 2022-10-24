@@ -1,8 +1,9 @@
 ﻿using BetyBankAdm.Funcionarios;
+using BetyBankAdm.SistemaInterno;
 
 namespace BetyBankAdm.Funcionarios
 {
-    public class GerenteDeConta : Funcionario
+    public class GerenteDeConta : Atentica
     {
         public GerenteDeConta(string cpf) : base(cpf, 4000)
         {
@@ -16,11 +17,6 @@ namespace BetyBankAdm.Funcionarios
         {
             Wage *= 1.05M;
         }
-        public string password { get; set; }
-
-        public bool Authentic(string password)
-        {
-            return this.password == password;
-        }
+        
     }
 }

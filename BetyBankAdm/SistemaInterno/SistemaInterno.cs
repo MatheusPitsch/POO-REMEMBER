@@ -9,7 +9,7 @@ namespace BetyBankAdm.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool Singin(Diretor funcionario, string password)
+        public bool Singin(Atentica funcionario, string password)
         {
             bool userAuthentic = funcionario.Authentic(password);
             
@@ -18,20 +18,8 @@ namespace BetyBankAdm.SistemaInterno
                 Console.WriteLine("Bem vindo");
                 return true;
             }
+            Console.WriteLine("Senha invalido");
             return false;
-        }
-        public bool Singin(GerenteDeConta funcionario, string password)
-        {
-            bool userAuthentic = funcionario.Authentic(password);
-            
-            if (userAuthentic)
-            {
-                Console.WriteLine("Bem vindo");
-                return true;
-            }
-
-            Console.WriteLine("Senha Incorreta");
-            return false;
-        }
+        }        
     }
 }
