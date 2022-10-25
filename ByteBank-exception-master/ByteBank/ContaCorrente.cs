@@ -1,12 +1,15 @@
 ﻿// using _05_ByteBank;
 
+using System;
+
 namespace ByteBank
 {
     public class ContaCorrente
     {
         public Cliente Titular { get; set; }
 
-        public static int TotalDeContasCriadas { get; private set; }
+        public static double TaxaOperacao { get; }
+        public static int TotalDeContasCriadas { get; }
 
 
         private int _agencia;
@@ -53,7 +56,9 @@ namespace ByteBank
             Agencia = agencia;
             Numero = numero;
 
-            TotalDeContasCriadas++;
+            throw new ArgumentException("Os argumentos são invalidos");   
+            //TotalDeContasCriadas++;
+            //TaxaOperacao = 30 / TotalDeContasCriadas;
         }
 
 

@@ -1,0 +1,15 @@
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\bin\Debug\net6.0\PraticandoPoo.exe
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\bin\Debug\net6.0\PraticandoPoo.deps.json
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\bin\Debug\net6.0\PraticandoPoo.runtimeconfig.json
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\bin\Debug\net6.0\PraticandoPoo.dll
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\bin\Debug\net6.0\PraticandoPoo.pdb
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.AssemblyInfo.cs
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.dll
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\refint\PraticandoPoo.dll
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.pdb
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\PraticandoPoo.genruntimeconfig.cache
+C:\Users\A\Desktop\CursoAlura\PraticandoPoo\obj\Debug\net6.0\ref\PraticandoPoo.dll
