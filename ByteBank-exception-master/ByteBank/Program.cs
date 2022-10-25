@@ -10,15 +10,22 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            {                
+            {
                 try
                 {
-                ContaCorrente conta01 = new ContaCorrente(0,0);
+                    ContaCorrente conta01 = new ContaCorrente(1, 1);
+                    conta01.Sacar(100);
 
+                }
+                catch (excecaoException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Saldo insuficiente");
                 }
                 catch (ArgumentException rp)
                 {
-                    Console.WriteLine("Aconteceu um erro");                    
+                    Console.WriteLine("Ocorreu um erro no argumento: " + rp.ParamName);
+                    Console.WriteLine("Aconteceu um erro");
                     Console.WriteLine(rp.Message);
                 }
             }

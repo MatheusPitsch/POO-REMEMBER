@@ -55,22 +55,21 @@ namespace ByteBank
         {
             Agencia = agencia;
             Numero = numero;
-
-            throw new ArgumentException("Os argumentos são invalidos");   
             //TotalDeContasCriadas++;
             //TaxaOperacao = 30 / TotalDeContasCriadas;
+
+            if (agencia <= 0) throw new ArgumentException("Agencia deve ser maior que 0", nameof(agencia));
+
+            if (numero <= 0) throw new ArgumentException("Numero deve ser maior que 0", nameof(numero));
+
         }
 
 
-        public bool Sacar(double valor)
+        public void Sacar(double valor)
         {
-            if (_saldo < valor)
-            {
-                return false;
-            }
+            if (valor < _saldo) { Console.WriteLine("Saque realizado"); _saldo -= valor; }
 
-            _saldo -= valor;
-            return true;
+            else throw new excecaoException($"O saldo é insuficiente, saldo: {this.Saldo}, valor do saque: {valor}");
         }
 
         public void Depositar(double valor)
